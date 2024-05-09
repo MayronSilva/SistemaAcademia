@@ -13,31 +13,53 @@
             <Property name="actionCommand" type="java.lang.String" value="Cadastro             "/>
           </Properties>
           <SubComponents>
-            <Menu class="javax.swing.JMenu" name="jMenu7">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Aluno"/>
-              </Properties>
-              <SubComponents>
-                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="cadastrar"/>
-                  </Properties>
-                </MenuItem>
-                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Cadastrar"/>
-                  </Properties>
-                </MenuItem>
-              </SubComponents>
-            </Menu>
             <Menu class="javax.swing.JMenu" name="jMenu8">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Professor"/>
+                <Property name="text" type="java.lang.String" value="Administrador"/>
               </Properties>
               <SubComponents>
                 <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Cadastrar"/>
+                    <Property name="text" type="java.lang.String" value="Cadastro"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu20">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Aluno"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cadastro"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu21">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Professor"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cadastro"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu22">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Funcionario"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cadastro"/>
                   </Properties>
                 </MenuItem>
               </SubComponents>
@@ -51,6 +73,28 @@
             </Property>
             <Property name="text" type="java.lang.String" value="frequencia"/>
           </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="jMenu23">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Anual"/>
+              </Properties>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mensal"/>
+              </Properties>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu25">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Semanal"/>
+              </Properties>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu26">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Diario"/>
+              </Properties>
+            </Menu>
+          </SubComponents>
         </Menu>
         <Menu class="javax.swing.JMenu" name="jMenu3">
           <Properties>
@@ -60,22 +104,35 @@
             <Property name="text" type="java.lang.String" value="Financeiro"/>
           </Properties>
           <SubComponents>
-            <Menu class="javax.swing.JMenu" name="jMenu9">
+            <Menu class="javax.swing.JMenu" name="jMenu7">
               <Properties>
                 <Property name="text" type="java.lang.String" value="2024"/>
               </Properties>
-              <SubComponents>
-                <Menu class="javax.swing.JMenu" name="jMenu10">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Janeiro"/>
-                  </Properties>
-                </Menu>
-                <Menu class="javax.swing.JMenu" name="jMenu11">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Fevereiro"/>
-                  </Properties>
-                </Menu>
-              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu31">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2023"/>
+              </Properties>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu32">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2022"/>
+              </Properties>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu33">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2021"/>
+              </Properties>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu34">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2020"/>
+              </Properties>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu35">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="2019"/>
+              </Properties>
             </Menu>
           </SubComponents>
         </Menu>
@@ -115,6 +172,26 @@
                   </Properties>
                 </MenuItem>
               </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu27">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quarta"/>
+              </Properties>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu28">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quinta"/>
+              </Properties>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu29">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sexta"/>
+              </Properties>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu30">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sabado"/>
+              </Properties>
             </Menu>
           </SubComponents>
         </Menu>
