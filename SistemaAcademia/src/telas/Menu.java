@@ -65,6 +65,7 @@ public class Menu extends javax.swing.JFrame {
         jMenu15 = new javax.swing.JMenu();
         jMenu16 = new javax.swing.JMenu();
         jMenu17 = new javax.swing.JMenu();
+        jMenu9 = new javax.swing.JMenu();
         jMenu6 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -205,7 +206,11 @@ public class Menu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu5);
 
-        jMenu6.setText("           sair");
+        jMenu9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Aparelhos.png"))); // NOI18N
+        jMenu9.setText("Aparelhos");
+        jMenuBar1.add(jMenu9);
+
+        jMenu6.setText("   sair");
         jMenuBar1.add(jMenu6);
 
         setJMenuBar(jMenuBar1);
@@ -296,6 +301,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu6;
     private javax.swing.JMenu jMenu7;
     private javax.swing.JMenu jMenu8;
+    private javax.swing.JMenu jMenu9;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
